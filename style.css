@@ -41,11 +41,16 @@ form {
 
 .input {
   padding: 1rem 2rem;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.911);
+  box-shadow: 0 0 3px rgba(71, 70, 70, 0.911);
   display: block;
   width: 100%;
   font-size: 1.2rem;
   border: none;
+}
+
+.input:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.911);
+  transition: 0.3s;
 }
 
 .input::placeholder {
