@@ -5,6 +5,7 @@
 }
 
 body {
+  max-width: 100%;
   background: #ee0979; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -81,4 +82,7 @@ small {
   color: #3b3232;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
 }
