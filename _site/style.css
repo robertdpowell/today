@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
-* {
+html {
   box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 body {
@@ -25,7 +30,6 @@ body {
   margin: 0;
   min-height: 50vh;
   overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 h1 {
@@ -38,7 +42,7 @@ h1 {
 form {
   margin: auto;
   max-width: 100%;
-  width: 500px;
+  width: 400px;
 }
 
 .input {
@@ -90,6 +94,7 @@ small {
 }
 
 .clear {
+  background-color: rgb(255, 255, 255);
   text-align: center;
   color: #3b3232;
   margin-top: 3rem;
@@ -97,4 +102,5 @@ small {
   border-radius: 25px;
   border: none;
   cursor: pointer;
+  padding: 10px 30px 10px 30px;
 }
