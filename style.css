@@ -24,6 +24,8 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   min-height: 50vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 h1 {
@@ -36,7 +38,7 @@ h1 {
 form {
   margin: auto;
   max-width: 100%;
-  width: 400px;
+  width: 500px;
 }
 
 .input {
@@ -46,6 +48,7 @@ form {
   width: 100%;
   font-size: 1.2rem;
   border: none;
+  margin-bottom: 5px;
 }
 
 .input:hover {
