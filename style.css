@@ -99,6 +99,12 @@ form {
   border-top: 1px solid #e5e5e5;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .todos li {
+    font-size: 2rem;
+  }
+}
+
 .todos li.completed {
   color: #b6b6b6;
   text-decoration: line-through;
@@ -109,6 +115,7 @@ small {
   font-family: "Poppins", sans-serif;
   color: #b6b6b6;
   margin-top: 3rem;
+  font-size: 2rem;
 }
 
 .clear {
