@@ -45,8 +45,17 @@ form {
   width: 400px;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  form {
+    margin: auto;
+    max-width: 100%;
+    width: 800px;
+  }
+}
+
 .input {
   padding: 1rem 2rem;
+  font-family: "Poppins", sans-serif;
   box-shadow: 0 0 3px rgba(71, 70, 70, 0.911);
   display: block;
   width: 100%;
@@ -68,6 +77,13 @@ form {
   color: rgba(0, 0, 0, 0.1);
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .input {
+    padding: 2rem 4rem;
+    font-size: 2rem;
+  }
+}
+
 .todos {
   background-color: rgb(255, 255, 255);
   padding: 0;
@@ -77,6 +93,7 @@ form {
 
 .todos li {
   font-size: 1rem;
+  font-family: "Poppins", sans-serif;
   cursor: pointer;
   padding: 1rem 2rem;
   border-top: 1px solid #e5e5e5;
@@ -89,12 +106,14 @@ form {
 
 small {
   text-align: center;
+  font-family: "Poppins", sans-serif;
   color: #b6b6b6;
   margin-top: 3rem;
 }
 
 .clear {
   background-color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
   text-align: center;
   color: #3b3232;
   margin-top: 3rem;
