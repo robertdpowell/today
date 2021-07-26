@@ -113,7 +113,7 @@ form {
 small {
   text-align: center;
   font-family: "Poppins", sans-serif;
-  color: #b6b6b6;
+  color: #bbbaba;
   margin-top: 3rem;
   font-size: 2rem;
 }
@@ -128,5 +128,6 @@ small {
   border-radius: 25px;
   border: none;
   cursor: pointer;
-  padding: 10px 30px 10px 30px;
+  padding: 20px 70px 20px 70px;
+  font-size: 2rem;
 }
