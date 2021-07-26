@@ -64,13 +64,6 @@ form {
   margin-bottom: 5px;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .input {
-    padding: 2rem 4rem;
-    font-size: 2rem;
-  }
-}
-
 .input:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.911);
   transition: 0.3s;
@@ -82,6 +75,13 @@ form {
 
 .input::placeholder {
   color: rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .input {
+    padding: 2rem 4rem;
+    font-size: 2rem;
+  }
 }
 
 .todos {
