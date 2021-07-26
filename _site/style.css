@@ -45,7 +45,7 @@ form {
   width: 400px;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
   form {
     margin: auto;
     max-width: 100%;
@@ -77,7 +77,7 @@ form {
   color: rgba(0, 0, 0, 0.1);
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
   .input {
     padding: 2rem 4rem;
     font-size: 2rem;
@@ -95,11 +95,11 @@ form {
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
-  padding: 2rem 4rem;
+  padding: 1rem 2rem;
   border-top: 1px solid #e5e5e5;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@@media only screen and (max-device-width: 480px) {
   .todos li {
     font-size: 2rem;
   }
@@ -115,7 +115,7 @@ small {
   font-family: "Poppins", sans-serif;
   color: #bbbaba;
   margin-top: 3rem;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .clear {
@@ -125,9 +125,16 @@ small {
   color: #3b3232;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  border-radius: 25px;
+  border-radius: 10px;
   border: none;
   cursor: pointer;
-  padding: 20px 70px 20px 70px;
-  font-size: 2rem;
+  padding: 10px 30px 10px 30px;
+  font-size: 1rem;
+}
+
+@@media only screen and (max-device-width: 480px) {
+  .clear {
+    padding: 20px 70px 20px 70px;
+    font-size: 2rem;
+  }
 }
