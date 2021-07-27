@@ -101,6 +101,7 @@ form {
 
 @@media only screen and (max-device-width: 480px) {
   .todos li {
+    padding: 2rem 4rem;
     font-size: 2rem;
   }
 }
@@ -115,7 +116,7 @@ small {
   font-family: "Poppins", sans-serif;
   color: #bbbaba;
   margin-top: 3rem;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .clear {
