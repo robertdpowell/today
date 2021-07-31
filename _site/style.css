@@ -99,7 +99,7 @@ form {
   border-top: 1px solid #e5e5e5;
 }
 
-@@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
   .todos li {
     padding: 2rem 4rem;
     font-size: 2rem;
@@ -133,7 +133,7 @@ small {
   font-size: 1rem;
 }
 
-@@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
   .clear {
     padding: 20px 70px 20px 70px;
     font-size: 2rem;
