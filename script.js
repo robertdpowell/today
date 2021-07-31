@@ -52,11 +52,11 @@ function addTodo(todo) {
       updateLS();
     });
 
-    todoEl.addEventListener("touchmove", (e) => {
-      e.preventDefault();
-      todoEl.remove();
-      updateLS();
-    });
+    //todoEl.addEventListener("touchmove", (e) => {
+    //e.preventDefault();
+    //todoEl.remove();
+    //updateLS();
+    //});
 
     todosUL.appendChild(todoEl); //add todos to end of list
     input.value = ""; //reset input box to blank
